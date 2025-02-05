@@ -1,8 +1,8 @@
 ﻿## Телеграмм-бот для получения прогноза погоды
 
 ## Обзор
-**Асинхронный** Telegram-бот, предоставляющий информацию о погоде в любом городе России.
-Информация **запрашивается у стороннего API-сервиса** посредством сетевых запросов.
+**Асинхронный** Telegram-бот, предоставляющий информацию о погоде в любом городе России.\
+Информация **запрашивается у стороннего API-сервиса** посредством сетевых запросов.\
 Реализована **функция периодического кэширования** полученной от API-сервиса информации в базе данных.
 
 ## Функциональность
@@ -34,7 +34,7 @@
  2. Установить Python версии 3.10+
  3. Клонировать данный репозиторий:
  ```bash
-git clone https://github.com/urris-dev/telegram-weather-bot.git
+git clone https://github.com/urris-dev/TelegramWeatherBot.git
 ```
  4. Создать виртуальное окружение в корне проекта  и активировать его:
 ```bash
@@ -59,7 +59,19 @@ pip install -r requirements.txt
  ```
 
 ## Демонстрация работы
+![](https://github.com/urris-dev/TelegramWeatherBot/blob/main/demo/start.png)
 
+![](https://github.com/urris-dev/TelegramWeatherBot/blob/main/demo/commands.png)
+
+![](https://github.com/urris-dev/TelegramWeatherBot/blob/main/demo/weather.png)
+
+![](https://github.com/urris-dev/TelegramWeatherBot/blob/main/demo/forecast.png)
+
+![](https://github.com/urris-dev/TelegramWeatherBot/blob/main/demo/forecast-res.png)
+
+![](https://github.com/urris-dev/TelegramWeatherBot/blob/main/demo/subscribe.png)
+
+![](https://github.com/urris-dev/TelegramWeatherBot/blob/main/demo/subscribe-res.png)
 
 
 
